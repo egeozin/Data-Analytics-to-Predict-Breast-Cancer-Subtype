@@ -1,104 +1,104 @@
-"","PATIENT_ID","ONCOTREE_CODE","CALC_TREATMENT_NAIVE","CALC_MET_SETTING","BX_TIME_DAYS","BX_LOCATION","BX_SIDEDNESS_BREAST","BX_TYPE","BX_DCIS","BX_LCIS","BX_GRADE","BX_ER","BX_PR","BX_HER2OVERALL","BX_KI67"
-"1","MBCProject_GvHkH2Hk",0,"1",1,0,"Bone","Not Applicable","FNA",0,0,3,1,1,1,"Unknown"
-"2","MBCProject_GvHkH2Hk",1,"1",1,8,"Breast","Left","Core",1,0,2,1,-1,1,"Unknown"
-"3","MBCProject_N4srsKsr",2,"1",1,10,"Breast","Left","Lumpectomy",0,1,3,-1,-1,-1,"19.30%"
-"4","MBCProject_N4srsKsr",3,"1",1,26,"Breast","Left","Mastectomy",0,1,3,-1,1,-1,"Unknown"
-"5","MBCProject_4MF1FlFQ",1,"1",1,0,"Breast","Left","Core",0,0,3,1,1,-1,"Unknown"
-"6","MBCProject_4MF1FlFQ",1,"0",1,114,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"7","MBCProject_wAiri7fp",0,"1",1,21,"Bone","Not Applicable","FNA",0,0,3,1,1,-1,"Unknown"
-"8","MBCProject_wAiri7fp",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,-1,"Unknown"
-"9","MBCProject_K7f6fdUz",0,"1",1,16,"Liver","Not Applicable","Core",0,0,3,-1,-1,1,"Unknown"
-"10","MBCProject_xBfJfri9",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,-1,"Unknown"
-"11","MBCProject_xBfJfri9",2,"0",1,161,"Breast","Left","Mastectomy",0,0,2,1,1,-1,"Unknown"
-"12","MBCProject_gKsRsqTR",1,"1",1,0,"Breast","Right","Core",0,0,3,1,1,-1,"Unknown"
-"13","MBCProject_QbiZiytx",3,"0",1,639,"Breast","Left","Punch",0,0,1,1,1,-1,"Unknown"
-"14","MBCProject_VrsMsqTb",2,"1",1,0,"Breast","Right","Core",1,0,2,1,1,1,"Unknown"
-"15","MBCProject_57iLiJIl",1,"0",1,3629,"Breast","Left","Core",0,0,3,1,1,-1,"Unknown"
-"16","MBCProject_ErfKfJt0",1,"1",1,17,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"10%"
-"17","MBCProject_K0UDUnFE",0,"1",1,1525,"Liver","Not Applicable","Core",0,0,3,-1,-1,1,"Unknown"
-"18","MBCProject_RKf1frsr",1,"1",1,0,"Breast","Left","Core",0,0,3,1,-1,-1,"52%"
-"19","MBCProject_RKf1frsr",1,"0",1,263,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"20","MBCProject_RKf1frsr",0,"1",1,39,"Liver","Not Applicable","Core",0,0,3,-1,-1,1,"20%"
-"21","MBCProject_wKuZuQS1",1,"0",1,512,"Breast","Right","Core",1,0,2,1,1,1,"Unknown"
-"22","MBCProject_kwS1CXSR",0,"1",1,25,"Axillary Lymph Node","Left","Core",0,0,3,1,-1,1,"Unknown"
-"23","MBCProject_O8u9SjuW",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,0,"Unknown"
-"24","MBCProject_7of5i3hp",1,"1",1,0,"Breast","Right","Core",0,0,3,1,-1,-1,"Unknown"
-"25","MBCProject_VbfASefz",1,"1",1,0,"Breast","Right","Core",0,0,2,1,-1,1,"Unknown"
-"26","MBCProject_4DIpSBFV",1,"1",1,0,"Breast","Left","Core",0,0,2,1,-1,1,"Unknown"
-"27","MBCProject_gotjfgf0",0,"1",1,28,"Bone","Not Applicable","Core",0,0,2,1,1,1,"Unknown"
-"28","MBCProject_gotjfgf0",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,1,"Unknown"
-"29","MBCProject_bvHXCoTY",1,"1",1,0,"Breast","Right","Core",1,0,3,-1,-1,1,"94%"
-"30","MBCProject_9JI1fwuX",1,"0",1,110,"Breast","Left","Mastectomy",1,0,3,-1,-1,-1,"Unknown"
-"31","MBCProject_ZdudUNFZ",1,"0",1,4031,"Breast","Left","Lumpectomy",0,0,2,1,-1,-1,"Unknown"
-"32","MBCProject_3jhES9fq",2,"1",1,1,"Breast","Right","Lumpectomy",0,0,1.5,1,1,-1,"Unknown"
-"33","MBCProject_3LI1TNs3",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,1,"Unknown"
-"34","MBCProject_4OIOfAt9",1,"0",1,293,"Breast","Right","Mastectomy",1,0,3,-1,1,-1,"Unknown"
-"35","MBCProject_7XFmtytw",1,"0",1,1721,"Axillary Lymph Node","Right","Core",0,0,2,1,1,-1,"Unknown"
-"36","MBCProject_74CYIyHw",1,"1",1,0,"Breast","Left","Lumpectomy",1,0,2,1,1,1,"31"
-"37","MBCProject_1ps2hZH8",1,"1",1,0,"Breast","Left","Core",0,0,2,1,-1,1,"Unknown"
-"38","MBCProject_rmSBIguN",0,"1",1,0,"Axillary Lymph Node","Right","Core",0,0,2,1,1,-1,"Unknown"
-"39","MBCProject_rmSBIguN",2,"1",1,0,"Breast","Right","Core",0,0,2,1,1,-1,"Unknown"
-"40","MBCProject_KphMt4F9",0,"1",1,3,"Axillary Lymph Node","Right","Core",0,0,3,1,1,-1,"Unknown"
-"41","MBCProject_KphMt4F9",2,"1",1,132,"Breast","Right","Lumpectomy",1,0,2,1,1,-1,"Unknown"
-"42","MBCProject_zyt5TKFB",1,"1",1,0,"Breast","Right","Core",1,0,3,1,1,1,"50%"
-"43","MBCProject_zyt5TKFB",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,-1,"12%"
-"44","MBCProject_JGCBTpH1",1,"1",1,23,"Breast","Right","Lumpectomy",1,0,3,-1,-1,-1,"Unknown"
-"45","MBCProject_bAi0Slsx",0,"1",1,40,"Lung","Not Applicable","Other",0,0,3,-1,1,1,"Unknown"
-"46","MBCProject_GouMi0U1",1,"1",1,10,"Breast","Right","Core",0,0,2,1,1,-1,"Unknown"
-"47","MBCProject_DxibF0hM",1,"0",1,230,"Breast","Left","Mastectomy",1,0,1,1,1,-1,"Unknown"
-"48","MBCProject_P2CMUEiX",1,"1",1,0,"Breast","Left","Core",0,0,3,-1,-1,1,"60%"
-"49","MBCProject_JBh5TjcM",1,"1",1,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1,"Unknown"
-"50","MBCProject_kduys9h5",1,"1",1,0,"Axillary Lymph Node","Left","Core",0,0,3,1,1,-1,"Unknown"
-"51","MBCProject_kduys9h5",1,"0",1,254,"Breast","Left","Mastectomy",0,0,3,-1,-1,-1,"Unknown"
-"52","MBCProject_d5CbUNTb",1,"0",1,936,"Chest wall","Right","Excision",0,0,3,-1,-1,-1,"50%"
-"53","MBCProject_BOHWtZT8",1,"1",1,0,"Breast","Right","Core",0,0,3,-1,-1,1,"Unknown"
-"54","MBCProject_BOHWtZT8",0,"1",1,34,"Liver","Not Applicable","Core",0,0,3,-1,-1,1,"Unknown"
-"55","MBCProject_epUYsdCE",1,"1",1,0,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"56","MBCProject_kAFQF3t6",2,"1",1,0,"Breast","Left","Core",0,0,2,1,1,1,">90%"
-"57","MBCProject_5jSPs9fl",0,"0",1,6189,"Liver","Not Applicable","Other",0,0,3,1,1,-1,"Unknown"
-"58","MBCProject_PASlTyTy",0,"0",1,11213,"Omentum","Not Applicable","FNA",0,0,3,1,-1,-1,"Unknown"
-"59","MBCProject_pMcWcrtZ",1,"0",1,271,"Breast","Right","Lumpectomy",0,0,3,-1,-1,-1,"Unknown"
-"60","MBCProject_rJHBiKTl",1,"1",1,0,"Breast","Left","Lumpectomy",1,0,1,1,-1,0,"Unknown"
-"61","MBCProject_AqtYu0IW",0,"0",1,908,"Lung","Not Applicable","Wedge",0,0,3,1,1,-1,"28%"
-"62","MBCProject_PXcjFYIo",1,"1",1,0,"Breast","Right","Core",1,0,3,1,1,-1,"88%"
-"63","MBCProject_PXcjFYIo",1,"0",1,199,"Breast","Right","Mastectomy",1,0,1,1,1,-1,"Unknown"
-"64","MBCProject_99CdCOHm",1,"1",0,40,"Breast","Left","Mastectomy",0,0,3,-1,-1,0,"Unknown"
-"65","MBCProject_QbiZiytx",2,"1",0,0,"Breast","Left","Lumpectomy",1,0,2,1,1,-1,"Unknown"
-"66","MBCProject_VQfmS0fK",1,"1",0,0,"Breast","Left","Core",1,0,2,1,1,1,"Unknown"
-"67","MBCProject_VQfmS0fK",1,"0",0,106,"Breast","Left","Mastectomy",1,0,2,1,1,1,"Unknown"
-"68","MBCProject_gjhMuoha",3,"1",0,4,"Breast","Right","Core",0,1,2,1,1,-1,"Unknown"
-"69","MBCProject_PzUBH7I3",1,"1",0,0,"Breast","Right","Lumpectomy",1,0,2,1,1,1,"Unknown"
-"70","MBCProject_PzUBH7I3",1,"1",0,37,"Breast","Right","Mastectomy",0,0,2,1,1,-1,"Unknown"
-"71","MBCProject_Y7fYC1iG",1,"1",0,0,"Breast","Left","Lumpectomy",1,0,3,1,1,1,"Unknown"
-"72","MBCProject_7VFnIqfw",1,"1",0,0,"Breast","Left","Mastectomy",0,0,3,-1,-1,-1,"Unknown"
-"73","MBCProject_ePi1smiM",0,"0",0,1211,"Bone","Not Applicable","Core",0,0,3,1,1,0,"4%"
-"74","MBCProject_ePi1smiM",1,"1",0,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1,"40%"
-"75","MBCProject_ePi1smiM",1,"1",0,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1,"40%"
-"76","MBCProject_ePi1smiM",1,"1",0,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1,"40%"
-"77","MBCProject_ePi1smiM",1,"0",0,166,"Breast","Left","Mastectomy",1,0,3,-1,-1,1,"Unknown"
-"78","MBCProject_7JtRIPI2",3,"0",0,143,"Breast","Left","Core",0,0,2,1,1,-1,"Unknown"
-"79","MBCProject_7JtRIPI2",3,"0",0,170,"Breast","Left","Mastectomy",0,0,3,1,1,-1,"Positive"
-"80","MBCProject_1qhlIasw",1,"1",0,0,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"81","MBCProject_4vC6Fgio",1,"1",0,21,"Breast","Right","Lumpectomy",1,0,3,-1,-1,1,"Unknown"
-"82","MBCProject_NDIbs9i6",3,"1",0,4,"Breast","Right","Lumpectomy",0,1,3,-1,-1,-1,"Unknown"
-"83","MBCProject_ZPHRs3Uw",2,"1",0,6,"Breast","Left","Mastectomy",1,0,2.5,-1,-1,1,"Unknown"
-"84","MBCProject_BVHET8iq",1,"1",0,0,"Breast","Left","Core",0,0,3,1,1,1,"Unknown"
-"85","MBCProject_KGs1fxH2",2,"1",0,68,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"86","MBCProject_KGs1fxH2",2,"1",0,68,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"87","MBCProject_3MUnT7Ty",3,"1",0,43,"Breast","Left","Mastectomy",0,1,2,1,1,-1,"Unknown"
-"88","MBCProject_mrhKt1Ue",1,"1",0,38,"Axillary Lymph Node","Right","Excision",1,0,3,1,-1,1,"Unknown"
-"89","MBCProject_d5CbUNTb",1,"1",0,0,"Breast","Right","Core",0,0,3,-1,-1,-1,"25%"
-"90","MBCProject_kRC3tlcA",1,"1",0,0,"Breast","Left","Mastectomy",1,0,3,-1,-1,1,"Unknown"
-"91","MBCProject_lXCmTEuv",1,"UNKNOWN",0,8,"Breast","Right","Mastectomy",1,0,2,-1,1,1,"Unknown"
-"92","MBCProject_jEhBHrS2",1,"1",0,0,"Breast","Left","Core",1,0,2,1,1,1,"Unknown"
-"93","MBCProject_27uAugT4",1,"0",0,41,"Breast","Left","Mastectomy",0,0,3,1,1,-1,"Unknown"
-"94","MBCProject_p1CQTdIg",1,"1",0,0,"Breast","Left","Mastectomy",1,0,3,-1,-1,1,"Unknown"
-"95","MBCProject_70CxiQFk",1,"1",0,0,"Breast","Right","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"96","MBCProject_DDUmIZuW",1,"1",0,120,"Breast","Left","Mastectomy",1,0,2,1,1,-1,"Unknown"
-"97","MBCProject_AqtYu0IW",1,"1",0,1,"Breast","Left","Lumpectomy",0,0,2.5,1,1,-1,"40%"
-"98","MBCProject_7OcOivcV",3,"1",0,45,"Breast","Left","Mastectomy",0,1,1,1,1,-1,"9%"
-"99","MBCProject_LvS2IvIy",1,"1",0,0,"Breast","Right","Core",0,0,2,1,1,1,"Unknown"
-"100","MBCProject_EBTBIGFy",1,"1",0,0,"Breast","Left","Mastectomy",1,0,3,-1,-1,1,"Unknown"
-"101","MBCProject_j2F2sQC0",0,"1",0,0,"Regional lymph node","Left","Core",0,0,3,-1,-1,0,"Unknown"
-"102","MBCProject_nZHYc4Ie",3,"1",0,0,"Breast","Left","Mastectomy",0,1,2,1,1,-1,"Unknown"
-"103","MBCProject_43UpSwhz",1,"UNKNOWN",1,4031,"Breast","Left","Core",1,0,3,1,1,-1,"High"
+"","PATIENT_ID","ONCOTREE_CODE","CALC_TREATMENT_NAIVE","CALC_MET_SETTING","BX_TIME_DAYS","BX_LOCATION","BX_SIDEDNESS_BREAST","BX_TYPE","BX_DCIS","BX_LCIS","BX_GRADE","BX_ER","BX_PR","BX_HER2OVERALL"
+"1","MBCProject_GvHkH2Hk",0,"1",1,0,"Bone","Not Applicable","FNA",0,0,3,1,1,-1
+"2","MBCProject_GvHkH2Hk",1,"1",1,8,"Breast","Left","Core",1,0,2,1,1,1
+"3","MBCProject_N4srsKsr",2,"1",1,10,"Breast","Left","Lumpectomy",0,1,2,-1,-1,-1
+"4","MBCProject_N4srsKsr",3,"1",1,26,"Breast","Left","Mastectomy",0,1,3,-1,-1,-1
+"5","MBCProject_4MF1FlFQ",1,"1",1,0,"Breast","Left","Core",0,0,3,1,1,-1
+"6","MBCProject_4MF1FlFQ",1,"0",1,114,"Breast","Left","Mastectomy",1,0,2,1,-1,1
+"7","MBCProject_wAiri7fp",0,"1",1,21,"Bone","Not Applicable","FNA",0,0,3,1,1,-1
+"8","MBCProject_wAiri7fp",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,-1
+"9","MBCProject_K7f6fdUz",0,"1",1,16,"Liver","Not Applicable","Core",0,0,3,-1,-1,1
+"10","MBCProject_xBfJfri9",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,-1
+"11","MBCProject_xBfJfri9",2,"0",1,161,"Breast","Left","Mastectomy",0,0,2,-1,-1,-1
+"12","MBCProject_gKsRsqTR",1,"1",1,0,"Breast","Right","Core",0,0,2,-1,-1,-1
+"13","MBCProject_QbiZiytx",3,"0",1,639,"Breast","Left","Punch",0,0,2,1,1,-1
+"14","MBCProject_VrsMsqTb",2,"1",1,0,"Breast","Right","Core",1,0,2,1,1,1
+"15","MBCProject_57iLiJIl",1,"0",1,3629,"Breast","Left","Core",0,0,3,1,1,-1
+"16","MBCProject_ErfKfJt0",1,"1",1,17,"Breast","Left","Mastectomy",1,0,2,1,1,-1
+"17","MBCProject_K0UDUnFE",0,"1",1,1525,"Liver","Not Applicable","Core",0,0,3,-1,-1,1
+"18","MBCProject_RKf1frsr",1,"1",1,0,"Breast","Left","Core",0,0,3,1,-1,-1
+"19","MBCProject_RKf1frsr",1,"0",1,263,"Breast","Left","Mastectomy",1,0,3,-1,-1,1
+"20","MBCProject_RKf1frsr",0,"1",1,39,"Liver","Not Applicable","Core",0,0,3,-1,-1,1
+"21","MBCProject_wKuZuQS1",1,"0",1,512,"Breast","Right","Core",1,0,2,1,1,1
+"22","MBCProject_kwS1CXSR",0,"1",1,25,"Axillary Lymph Node","Left","Core",0,0,2.5,1,-1,1
+"23","MBCProject_O8u9SjuW",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,1
+"24","MBCProject_7of5i3hp",1,"1",1,0,"Breast","Right","Core",0,0,3,1,-1,-1
+"25","MBCProject_VbfASefz",1,"1",1,0,"Breast","Right","Core",0,0,2,1,-1,1
+"26","MBCProject_4DIpSBFV",1,"1",1,0,"Breast","Left","Core",0,0,2,1,-1,1
+"27","MBCProject_gotjfgf0",0,"1",1,28,"Bone","Not Applicable","Core",0,0,2,1,1,1
+"28","MBCProject_gotjfgf0",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,-1
+"29","MBCProject_bvHXCoTY",1,"1",1,0,"Breast","Right","Core",1,0,3,-1,-1,1
+"30","MBCProject_9JI1fwuX",1,"0",1,110,"Breast","Left","Mastectomy",1,0,3,1,-1,1
+"31","MBCProject_ZdudUNFZ",1,"0",1,4031,"Breast","Left","Lumpectomy",0,0,2,1,1,-1
+"32","MBCProject_3jhES9fq",2,"1",1,1,"Breast","Right","Lumpectomy",0,0,1.5,-1,-1,-1
+"33","MBCProject_3LI1TNs3",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,1
+"34","MBCProject_4OIOfAt9",1,"0",1,293,"Breast","Right","Mastectomy",1,0,3,-1,-1,-1
+"35","MBCProject_7XFmtytw",1,"0",1,1721,"Axillary Lymph Node","Right","Core",0,0,2,1,1,-1
+"36","MBCProject_74CYIyHw",1,"1",1,0,"Breast","Left","Lumpectomy",1,0,2,1,1,1
+"37","MBCProject_1ps2hZH8",1,"1",1,0,"Breast","Left","Core",0,0,2,1,1,1
+"38","MBCProject_rmSBIguN",0,"1",1,0,"Axillary Lymph Node","Right","Core",0,0,2,1,1,-1
+"39","MBCProject_rmSBIguN",2,"1",1,0,"Breast","Right","Core",0,0,2,1,1,-1
+"40","MBCProject_KphMt4F9",0,"1",1,3,"Axillary Lymph Node","Right","Core",0,0,1,1,1,-1
+"41","MBCProject_KphMt4F9",2,"1",1,132,"Breast","Right","Lumpectomy",1,0,2,1,1,1
+"42","MBCProject_zyt5TKFB",1,"1",1,0,"Breast","Right","Core",1,0,3,1,1,1
+"43","MBCProject_zyt5TKFB",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,-1
+"44","MBCProject_JGCBTpH1",1,"1",1,23,"Breast","Right","Lumpectomy",1,0,3,-1,-1,-1
+"45","MBCProject_bAi0Slsx",0,"1",1,40,"Lung","Not Applicable","Other",0,0,3,-1,-1,1
+"46","MBCProject_GouMi0U1",1,"1",1,10,"Breast","Right","Core",0,0,2,1,1,-1
+"47","MBCProject_DxibF0hM",1,"0",1,230,"Breast","Left","Mastectomy",1,0,1,1,1,-1
+"48","MBCProject_P2CMUEiX",1,"1",1,0,"Breast","Left","Core",0,0,3,-1,-1,1
+"49","MBCProject_JBh5TjcM",1,"1",1,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1
+"50","MBCProject_kduys9h5",1,"1",1,0,"Axillary Lymph Node","Left","Core",0,0,3,-1,-1,1
+"51","MBCProject_kduys9h5",1,"0",1,254,"Breast","Left","Mastectomy",0,0,3,-1,-1,-1
+"52","MBCProject_d5CbUNTb",1,"0",1,936,"Chest wall","Right","Excision",0,0,3,-1,-1,-1
+"53","MBCProject_BOHWtZT8",1,"1",1,0,"Breast","Right","Core",0,0,3,-1,-1,1
+"54","MBCProject_BOHWtZT8",0,"1",1,34,"Liver","Not Applicable","Core",0,0,2,1,1,1
+"55","MBCProject_epUYsdCE",1,"1",1,0,"Breast","Left","Mastectomy",1,0,2,1,1,-1
+"56","MBCProject_kAFQF3t6",2,"1",1,0,"Breast","Left","Core",0,0,2,1,1,1
+"57","MBCProject_5jSPs9fl",0,"0",1,6189,"Liver","Not Applicable","Other",0,0,3,1,1,-1
+"58","MBCProject_PASlTyTy",0,"0",1,11213,"Omentum","Not Applicable","FNA",0,0,3,1,-1,-1
+"59","MBCProject_pMcWcrtZ",1,"0",1,271,"Breast","Right","Lumpectomy",0,0,3,-1,-1,-1
+"60","MBCProject_rJHBiKTl",1,"1",1,0,"Breast","Left","Lumpectomy",1,0,1,1,1,1
+"61","MBCProject_AqtYu0IW",0,"0",1,908,"Lung","Not Applicable","Wedge",0,0,3,1,1,-1
+"62","MBCProject_PXcjFYIo",1,"1",1,0,"Breast","Right","Core",1,0,2,1,1,-1
+"63","MBCProject_PXcjFYIo",1,"0",1,199,"Breast","Right","Mastectomy",1,0,1,1,1,-1
+"64","MBCProject_99CdCOHm",1,"1",0,40,"Breast","Left","Mastectomy",0,0,3,-1,-1,1
+"65","MBCProject_QbiZiytx",2,"1",0,0,"Breast","Left","Lumpectomy",1,0,2,1,1,-1
+"66","MBCProject_VQfmS0fK",1,"1",0,0,"Breast","Left","Core",1,0,2,1,1,1
+"67","MBCProject_VQfmS0fK",1,"0",0,106,"Breast","Left","Mastectomy",1,0,3,-1,-1,-1
+"68","MBCProject_gjhMuoha",3,"1",0,4,"Breast","Right","Core",0,1,2,1,1,-1
+"69","MBCProject_PzUBH7I3",1,"1",0,0,"Breast","Right","Lumpectomy",1,0,2,1,1,-1
+"70","MBCProject_PzUBH7I3",1,"1",0,37,"Breast","Right","Mastectomy",0,0,2,1,1,-1
+"71","MBCProject_Y7fYC1iG",1,"1",0,0,"Breast","Left","Lumpectomy",1,0,3,1,1,1
+"72","MBCProject_7VFnIqfw",1,"1",0,0,"Breast","Left","Mastectomy",0,0,3,-1,-1,-1
+"73","MBCProject_ePi1smiM",0,"0",0,1211,"Bone","Not Applicable","Core",0,0,3,1,1,0
+"74","MBCProject_ePi1smiM",1,"1",0,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1
+"75","MBCProject_ePi1smiM",1,"1",0,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1
+"76","MBCProject_ePi1smiM",1,"1",0,0,"Breast","Left","Lumpectomy",0,0,3,1,1,-1
+"77","MBCProject_ePi1smiM",1,"0",0,166,"Breast","Left","Mastectomy",1,0,3,1,-1,1
+"78","MBCProject_7JtRIPI2",3,"0",0,143,"Breast","Left","Core",0,0,2,1,1,-1
+"79","MBCProject_7JtRIPI2",3,"0",0,170,"Breast","Left","Mastectomy",0,0,3,1,1,-1
+"80","MBCProject_1qhlIasw",1,"1",0,0,"Breast","Left","Mastectomy",1,0,2,1,1,-1
+"81","MBCProject_4vC6Fgio",1,"1",0,21,"Breast","Right","Lumpectomy",1,0,3,1,1,1
+"82","MBCProject_NDIbs9i6",3,"1",0,4,"Breast","Right","Lumpectomy",0,1,3,-1,-1,-1
+"83","MBCProject_ZPHRs3Uw",2,"1",0,6,"Breast","Left","Mastectomy",1,0,2.5,1,1,1
+"84","MBCProject_BVHET8iq",1,"1",0,0,"Breast","Left","Core",0,0,3,1,1,1
+"85","MBCProject_KGs1fxH2",2,"1",0,68,"Breast","Left","Mastectomy",1,0,2,1,1,1
+"86","MBCProject_KGs1fxH2",2,"1",0,68,"Breast","Left","Mastectomy",1,0,2,1,1,0
+"87","MBCProject_3MUnT7Ty",3,"1",0,43,"Breast","Left","Mastectomy",0,1,3,1,1,-1
+"88","MBCProject_mrhKt1Ue",1,"1",0,38,"Axillary Lymph Node","Right","Excision",1,0,3,1,1,-1
+"89","MBCProject_d5CbUNTb",1,"1",0,0,"Breast","Right","Core",0,0,3,-1,-1,-1
+"90","MBCProject_kRC3tlcA",1,"1",0,0,"Breast","Left","Mastectomy",1,0,3,-1,-1,1
+"91","MBCProject_lXCmTEuv",1,"UNKNOWN",0,8,"Breast","Right","Mastectomy",1,0,2,-1,-1,-1
+"92","MBCProject_jEhBHrS2",1,"1",0,0,"Breast","Left","Core",1,0,2,1,1,1
+"93","MBCProject_27uAugT4",1,"0",0,41,"Breast","Left","Mastectomy",0,0,3,-1,-1,-1
+"94","MBCProject_p1CQTdIg",1,"1",0,0,"Breast","Left","Mastectomy",1,0,3,-1,-1,1
+"95","MBCProject_70CxiQFk",1,"1",0,0,"Breast","Right","Mastectomy",1,0,2,1,1,-1
+"96","MBCProject_DDUmIZuW",1,"1",0,120,"Breast","Left","Mastectomy",1,0,2,1,1,1
+"97","MBCProject_AqtYu0IW",1,"1",0,1,"Breast","Left","Lumpectomy",0,0,2.5,1,1,-1
+"98","MBCProject_7OcOivcV",3,"1",0,45,"Breast","Left","Mastectomy",0,1,1,1,1,-1
+"99","MBCProject_LvS2IvIy",1,"1",0,0,"Breast","Right","Core",0,0,2,1,1,1
+"100","MBCProject_EBTBIGFy",1,"1",0,0,"Breast","Left","Mastectomy",1,0,3,1,1,1
+"101","MBCProject_j2F2sQC0",0,"1",0,0,"Regional lymph node","Left","Core",0,0,3,-1,-1,0
+"102","MBCProject_nZHYc4Ie",3,"1",0,0,"Breast","Left","Mastectomy",0,1,2,-1,-1,-1
+"103","MBCProject_43UpSwhz",1,"UNKNOWN",0,114,"Breast","Left","Core",1,0,3,1,1,-1
