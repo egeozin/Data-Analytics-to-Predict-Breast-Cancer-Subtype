@@ -9,3 +9,10 @@ data
 
 .pyc
 
+clean_clinical_patient.ipynb
+.ipynb_checkpoints/jburd_clean_clinical_patient-checkpoint.ipynb
+data_clinical_patient_drop.txt
+*.ipynb
+preprocessing.ipynb
+prep_clinical.ipynb
+prep_clinical.ipynb
