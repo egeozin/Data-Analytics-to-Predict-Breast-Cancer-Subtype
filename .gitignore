@@ -8,4 +8,5 @@ data
 .ds_store
 
 .pyc
+.ipynb
 
