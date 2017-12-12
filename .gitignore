@@ -7,6 +7,9 @@ data
 .DS_Store
 .ds_store
 
+.Rdata
+.Rhistory
+
 .pyc
 
 clean_clinical_patient.ipynb
