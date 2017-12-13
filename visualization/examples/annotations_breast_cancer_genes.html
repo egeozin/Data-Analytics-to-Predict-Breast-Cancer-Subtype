@@ -10,13 +10,6 @@
   <a href=".">Back to overview</a> |
   <a href="annotations_tracks.html">Previous</a> |
   <a href="annotations_file_url.html">Next</a>
-  <p>
-   The <a href="https://www.acmg.net/">American College of Medical Genetics and
-   Genomics</a> (ACMG) recommends that laboratories performing clinical
-   sequencing seek and report certain mutations in
-   <a href="https://www.ncbi.nlm.nih.gov/clinvar/docs/acmg/">the genes depicted
-   here.</a>
- </p>
   <div id="container"></div>
   <script type="text/javascript">
 
@@ -34,16 +27,6 @@
     geneIDs = [];
     annots = [];
 
-    // EUtils is a web API to access NCBI data
-    eutils = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/";
-    defaultParams = "?db=gene&retmode=json&retmax=100";
-
-    // Use ESearch to get NCBI Gene ID for gene name, e.g. BRCA1 -> 672
-    esearch = eutils + "esearch.fcgi" + defaultParams;
-
-    // Use ESummary to get genomic coordinates for given gene IDs
-    esummary = eutils + "esummary.fcgi" + defaultParams;
-
     acmgGenes = [
       "APC", "MYH11", "ACTA2", "MYLK", "TMEM43", "DSP", "PKP2", "DSG2", "DSC2",
       "BRCA1", "BRCA2", "SCN5A", "RYR2", "LMNA", "MYBPC3", "COL3A1", "GLA",
@@ -55,48 +38,46 @@
       "PTEN", "RB1", "TSC1", "TSC2", "VHL"
     ];
 
+    acGenes = {"keys":["chr","start","length","color"], "annots":[
+    {"chr":"1","annots":[["virtual1",30000000,6000000,"rgba(255, 0, 0, 0.65)"], ["virtual2",40000000,5000000,"rgba(0, 255, 0, 0.65)"]]},
+    {"chr":"2","annots":[["nsv531656",40738282,17125539,"rgba(255, 0, 0, 0.65)"], ["2",30000000,9000000,"rgba(255, 0, 0, 0.65)"]]},
+    {"chr":"20","annots":[["observation 1",30954171,5816,"rgba(255, 0, 0, 0.65)"]]},
+    {"chr":"3","annots":[[" ",30000000,9000000,"rgba(0, 255, 0, 0.65)"], ["virtual3",33000000,3000000,"rgba(255, 0, 0, 0.65)"]]},
+    {"chr":"9","annots":[["a duplicate name",120000000,9000000,"rgba(0, 255, 0, 0.65)"], ["a duplicate name",12000000,12000000,"rgba(255, 0, 0, 0.65)"]]},
+    {"chr":"foo", "annots": []},
+    {"chr":"X","annots":[["observation 2",47422351,6720,"rgba(0, 0, 255, 0.65)"]]}]}
+
+
+
     // Batch request all ACMG genes
-    geneClause = "(" + acmgGenes.join("[symbol] OR ") + "[symbol])";
+    //geneClause = "(" + acmgGenes.join("[symbol] OR ") + "[symbol])";
 
     topWeight = 0;
     weights = [];
 
-    url = esearch + "&term=Homo-sapiens[Organism] AND " + geneClause;
-    d3.json(url, function(error, data) {
-      geneIDs = data.esearchresult.idlist;
+    //url = esearch + "&term=Homo-sapiens[Organism] AND " + geneClause;
+    //d3.json(url, function(error, data) {
+      //geneIDs = data.esearchresult.idlist;
+      //console.log(geneIDs)
 
       // Batch request genomic coordinates for all ACMG genes
-      url = esummary + "&id=" + geneIDs.join(",");
-      d3.json(url, function(error, data) {
-        for (var i = 0; i <50 ; i++) { // geneIDs.length
-          var result, gene, chr, loc, start, stop, weight;
-          geneID = geneIDs[i];
-          result = data.result[geneID];
-          if (result.currentid !== "" || acmgGenes.indexOf(result.name) === -1 ) {
-            // currentid case occurs when one gene symbol in a taxon maps to
-            // multiple gene.  It seems to be annotation-run noise.
-            // result.name case occurs when gene has a non-canonical alias
-            // matching the gene symbol.
-            // Ignore both.
-            continue;
-          }
+      //url = esummary + "&id=" + geneIDs.join(",");
+      d3.tsv('for_visuals.csv', function(error, data) {
+        console.log(data[0].start);
+        for (var i = 0; i < data.length; i++) { //data.length
+          var gene, chr, start, stop, pheno;
+          geneInfo = data[i];
 
-          gene = result.name;
-          
-          chr = result.chromosome;
-          //console.log(chr);
+          gene = geneInfo.gene;
+          chr = geneInfo.chromosome;
+          start = Number(geneInfo.start);
+          //console.log(start)
+          stop = Number(geneInfo.end);
+          pheno = Number(geneInfo.phenotype);
 
-          loc = result.locationhist[0]; // better than "genomicinfo"
-          //console.log(loc.chrstart);
-          //console.log(loc);
-          start = loc.chrstart;
-          console.log(start);
-          stop = loc.chrstop;
-          weight = result.geneweight;
-
-          if (result.weight > topWeight) {
-            topWeight = result;
-          }
+          //if (result.weight > topWeight) {
+          //  topWeight = result;
+          //}
 
           ////
           // This is the annotations API
@@ -106,7 +87,7 @@
             "chr": chr, // required
             "start": start, // required
             "stop": stop, // required
-            "weight": weight // optional
+            "pheno": pheno // required
           });
 
         }
@@ -115,27 +96,45 @@
         // http://www.ncbi.nlm.nih.gov/books/NBK3841/#EntrezGene.Sort_by
         // Gene weight is a rough proxy for general biomedical relevance.
         // Higher weight, more important.
-        annots.sort(function(a, b) {
-          return b.weight - a.weight;
-        });
+        //annots.sort(function(a, b) {
+        //  return b.weight - a.weight;
+        //});
 
         // This block highlights the 10 most important ACMG genes.
         for (i = 0; i < annots.length; i++) {
-          color = (i < 10) ? "#F00" : "#FAA";
-          annots[i].shape = "triangle";
-          annots[i].color = color;
+          //color = (i < 10) ? "#F00" : "#FAA";
+          //color =  "#FAA"
+          //annots[i].shape = "triangle";
+          //annots[i].color = color;
 
           // BRCA1 is the most widely-recognized gene name.  Make it stand out.
-          if (annots[i].name === "BRCA1") {
-            annots[i].shape = "circle";
-            annots[i].color = "#0A0";
+          if (annots[i].pheno === 0) {
+            annots[i].shape = "triangle";
+            //console.log("hurray")
+            annots[i].color = "#6BAED6"; // BREAST
           }
+          if (annots[i].pheno === 1) {
+            annots[i].shape = "triangle";
+            annots[i].color = "#74c476"; // IDC
+          }
+          if (annots[i].pheno === 2) {
+            annots[i].shape = "triangle";
+            annots[i].color = "#fd8d3c"; //orange, MDLC
+          }
+          if (annots[i].pheno === 3) {
+            annots[i].shape = "triangle";
+            annots[i].color = "#9e9ac8"; //orange, IDC
+          }
+          if (annots[i].pheno === -1) {
+            annots[i].shape = "triangle";
+            annots[i].color = "#ff5252"; // Multiple Membership
+          }
+
         }
 
         ideogram.drawAnnots(annots);
 
       });
-    })
 
   }
 
