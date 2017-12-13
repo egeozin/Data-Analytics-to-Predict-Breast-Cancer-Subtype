@@ -1,5 +1,5 @@
 # Data Analytics to Predict Metastatic Breast Cancer Subtype: 
-## Moving Towards Precision Medicine and Personalized Care Something
+## Moving Towards Precision Medicine and Personalized Care
 
 ### Joshua Burd, Donovan Guttieres, Liang Li,  Ege Ozgirin, and Sitara Persad
 
