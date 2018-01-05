@@ -3,7 +3,7 @@
 .idea/*
 
 data
-ipynb_checkpoints
+.ipynb_checkpoints
 
 .DS_Store
 .ds_store
