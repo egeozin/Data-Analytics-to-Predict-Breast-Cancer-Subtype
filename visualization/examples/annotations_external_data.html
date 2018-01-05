@@ -68,7 +68,7 @@
       // Batch request genomic coordinates for all ACMG genes
       url = esummary + "&id=" + geneIDs.join(",");
       d3.json(url, function(error, data) {
-        for (var i = 0; i <50 ; i++) { // geneIDs.length
+        for (var i = 0; i < geneIDs.length; i++) {
           var result, gene, chr, loc, start, stop, weight;
           geneID = geneIDs[i];
           result = data.result[geneID];
